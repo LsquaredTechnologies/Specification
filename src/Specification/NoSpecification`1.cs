@@ -4,14 +4,14 @@ namespace Lsquared.Business.Specifications
     /// 
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public sealed class EmptySpecification<T> : Specification<T>
+    public sealed class NoSpecification<T> : Specification<T>
     {
         /// <summary>
         /// 
         /// </summary>
-        internal EmptySpecification() { }
+        internal NoSpecification() { }
 
         /// <inheritdoc />
-        public override bool Match(T item) => true;
+        public override bool Match(T item) => false;
     }
 }

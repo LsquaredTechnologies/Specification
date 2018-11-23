@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{EDFF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lsquared.Business.Specification", "src\Specification\Lsquared.Business.Specification.csproj", "{9437C0EF-BDEB-4FD8-A346-79C3A8EF81BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A2A3FB94-8374-4CA0-8039-8914174DCD1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsquared.Business.Specification.Tests", "tests\Specification.Tests\Lsquared.Business.Specification.Tests.csproj", "{279FE7C1-83CE-4FCA-93EA-D1B013BD3B08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{9437C0EF-BDEB-4FD8-A346-79C3A8EF81BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9437C0EF-BDEB-4FD8-A346-79C3A8EF81BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9437C0EF-BDEB-4FD8-A346-79C3A8EF81BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279FE7C1-83CE-4FCA-93EA-D1B013BD3B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279FE7C1-83CE-4FCA-93EA-D1B013BD3B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279FE7C1-83CE-4FCA-93EA-D1B013BD3B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279FE7C1-83CE-4FCA-93EA-D1B013BD3B08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9437C0EF-BDEB-4FD8-A346-79C3A8EF81BD} = {EDFF470F-4CE6-4CCE-99D8-AA738ADF50A2}
+		{279FE7C1-83CE-4FCA-93EA-D1B013BD3B08} = {A2A3FB94-8374-4CA0-8039-8914174DCD1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5C6F4E73-899A-4FE2-A3DB-AEF916662075}

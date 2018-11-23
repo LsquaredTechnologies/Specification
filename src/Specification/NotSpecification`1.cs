@@ -12,7 +12,7 @@ namespace Lsquared.Business.Specifications
         /// 
         /// </summary>
         /// <param name="specification"></param>
-        public NotSpecification(ISpecification<T> specification)
+        internal NotSpecification(ISpecification<T> specification)
         {
             _specification = specification ?? throw new ArgumentNullException(nameof(specification));
         }

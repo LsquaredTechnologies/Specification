@@ -38,5 +38,12 @@ namespace Lsquared.Business.Specifications
         /// <typeparam name="T"></typeparam>
         /// <returns></returns>
         public static Specification<T> Empty<T>() => new EmptySpecification<T>();
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public static Specification<T> None<T>() => new NoSpecification<T>();
     }
 }
